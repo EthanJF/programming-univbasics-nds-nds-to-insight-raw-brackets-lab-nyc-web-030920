@@ -20,10 +20,9 @@ def directors_totals(nds)
   #
   i = 0
   while i < nds.length do
-    result << nds[i][:name]
+    result = nds[i][:name] => nds[i][:worldwide_gross]
     i += 1
   end
   # Be sure to return the result at the end!
   result
-  pp nds[0]
 end

@@ -29,7 +29,6 @@ def directors_totals(nds)
     director_index += 1
   end
   # Be sure to return the result at the end!
-  puts pp nds
+  result
 end
 
-directors_totals(directors_database)

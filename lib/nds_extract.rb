@@ -18,6 +18,12 @@ def directors_totals(nds)
   # ...
   #
   #
+  i = 0
+  while i < nds.length do
+    result << nds[i][:name]
+    i += 1
+  end
   # Be sure to return the result at the end!
+  result
   pp nds[0]
 end
